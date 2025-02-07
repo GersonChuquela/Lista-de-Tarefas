@@ -3,8 +3,7 @@ import "./App.css";
 import Todo from "./components/todo";
 import TodoForm from "./components/todoForm";
 import Search from "./components/search";
-import Filter from "./components/Filter";
-
+import Filter from "./components/filter";
 function App() {
   const [todos, setTodos] = useState([
     {
